@@ -12,16 +12,21 @@ const horseSound = document.getElementById('horse-sound');
 // set event listeners 
 hothImg.addEventListener('click', ()=>{
     catSound.play();
-
+    hothImg.style.transform = 'rotate(360deg)';
+    hothImg.style.transition = '1s ease';
 });
 
 mouthImg.addEventListener('click', ()=>{
     dogSound.play();
+    mouthImg.style.transform = 'rotate(-360deg)';
+    mouthImg.style.transition = '1s ease';
 
 });
 
 rancorImg.addEventListener('click', ()=>{
     horseSound.play();
+    rancorImg.style.transform = 'rotate(-360deg)';
+    rancorImg.style.transition = '1s ease';
 });
 
 

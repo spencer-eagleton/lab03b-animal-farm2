@@ -1,10 +1,21 @@
+header {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+body {
+    background-color: black;
+
+}
 
 main {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    }
+    background-image: url('/assets/thelivingforest.png');
+}
 
 .animals img {
     width: 30vw;
 }
+
